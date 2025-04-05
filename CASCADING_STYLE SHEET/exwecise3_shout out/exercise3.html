@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+</head>
+<style>
+    body{
+        background-color: rgb(177, 124, 58);
+    }
+    .card{
+        background-color: bisque;
+        width: 344px;
+        border-radius: 17px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .image{
+
+        border-radius: 7px;
+        background-color: bisque;
+        width: 100%;
+        max-width: 244px;
+        height: auto;
+    }
+    .image img{
+        width: 100%;
+        display: block;
+        border-radius: 7px;
+    }
+    .capsule{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .capsule span{
+        background-color: cornsilk;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 12px;
+    }
+    .content {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .content h2{
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+    .content p{
+        font-size: 13px;
+        padding:4px;
+
+    }
+</style>
+<body>
+   <div class="card">
+    <div class="image">
+        <img src="girl.png" alt="Girl">
+    </div>
+     <div class="capsule">
+        <span>Nature</span>
+        <span>Lake</span>
+     </div>  
+     <div class="content">
+        <h2>Rupam kumari</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cumque incidunt deleniti provident architecto libero, cum dignissimos, iste excepturi perferendis, sint a facilis?</p>
+    
+     </div>
+</body>
+</html>
