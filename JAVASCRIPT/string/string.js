@@ -1,0 +1,21 @@
+ let name="Magic";
+console.log(name[0])
+console.log(name[1])
+console.log(name[2])
+console.log(name[3])
+console.log(name[4])
+console.log(name[5])
+console.log(name.length)
+let friend="lost"
+console.log("My name is "+ name+ " and my friend name is "+ friend)
+ let c="money"
+console.log(c.toLowerCase())
+console.log(c.toUpperCase())
+console.log(c.length)
+console.log(c.slice(1,4))
+console.log(c.slice())
+console.log(c.replace("m","45"))
+console.log(c.concat(friend,"dark"))
+console.log("friend"+ "dark")
+console.log(c.endsWith("y"))
+console.log(c.startsWith("y"))
